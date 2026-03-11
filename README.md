@@ -23,3 +23,15 @@ An intelligent AI chatbot built to interact with users, answer questions, and pr
 ```bash
 git clone https://github.com/yourusername/ai-chatbot.git
 cd ai-chatbot
+
+2.Create a virtual environment:
+python3 -m venv venv
+source venv/bin/activate  # Linux/Mac
+venv\Scripts\activate     # Windows
+
+3.Install dependencies::
+pip install -r requirements.txt
+
+Usage
+Run the chatbot server:
+python app.py
